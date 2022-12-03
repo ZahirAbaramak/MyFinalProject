@@ -1,4 +1,5 @@
 ﻿using Core.DataAccsess;
+using Core.Entities;
 using Entities.Concrate;
 using System;
 using System.Collections.Generic;
@@ -8,8 +9,8 @@ using System.Threading.Tasks;
 
 namespace DataAccsess.Abstract
 {
-    public interface ICategoryDal :IEntityRepository<Category>
+   public interface IOrderDal : IEntityRepository<Order>
     {
-       
+
     }
 }

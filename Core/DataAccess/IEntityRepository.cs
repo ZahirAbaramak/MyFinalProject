@@ -1,13 +1,12 @@
-﻿using Entities.Abstract;
-using Entities.Concrate;
+﻿using Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
-
-namespace DataAccsess.Abstract
+ 
+namespace Core.DataAccsess
 {//generic  constraint
     //class : referans tip
     //IEntity : IEntity olabilir ve IEntity implemente edenler de olabilir.
